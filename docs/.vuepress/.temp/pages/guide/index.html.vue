@@ -243,20 +243,20 @@ or with the information provided by your deployments.</p>
 <h3 id="steps-to-register" tabindex="-1"><a class="header-anchor" href="#steps-to-register"><span>Steps to register</span></a></h3>
 <p>Next, you must follow the following steps to register:</p>
 <p>You must go to the main page that we will show you below, where you will find the main view of Laravel. At the top right, you will see two buttons: one to register and the other to log in.</p>
-<p><img src="@source/guide/guide/images/cap1.png" alt="main page"></p>
+<p><img src="/images/cap1.png" alt="main page"></p>
 <p>Enter the registration button, where you must fill out all the required fields, including your name, email address, password and its verification.
 The password must meet the following mandatory requirements:</p>
 <ul>
 <li>It must be a minimum of 8 characters.</li>
 </ul>
-<p><img src="@source/guide/guide/images/cap2.png" alt="register"></p>
+<p><img src="/images/cap2.png" alt="register"></p>
 <p>Upon entering, you will find the main view, where the key settings will be displayed. At the top, you can see the profile.</p>
-<p><img src="@source/guide/guide/images/cap3.png" alt="principal"></p>
+<p><img src="/images/cap3.png" alt="principal"></p>
 <p>In the profile section, you will find two options: one to change the settings and another to return to the main page.</p>
-<p><img src="@source/guide/guide/images/cap4.png" alt="menu"></p>
+<p><img src="/images/cap4.png" alt="menu"></p>
 <p>In the profile option, the user information and the option to change the password if necessary will be displayed.</p>
-<p><img src="@source/guide/guide/images/cap5.png" alt="info"></p>
-<p><img src="@source/guide/guide/images/cap6.png" alt="cambioclave"></p>
+<!-- ![info](/images/cap5.png) -->
+<!-- ![cambioclave](/images/cap6.png) -->
 </div></template>
 
 

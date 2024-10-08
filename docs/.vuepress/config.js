@@ -15,6 +15,7 @@ export default defineUserConfig({
       '/',
       '/guide/'
     ],
+    // sidebar: 'false'
   }),
 
   bundler: viteBundler(),

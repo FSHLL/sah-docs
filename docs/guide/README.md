@@ -263,27 +263,27 @@ Next, you must follow the following steps to register:
 
 You must go to the main page that we will show you below, where you will find the main view of Laravel. At the top right, you will see two buttons: one to register and the other to log in.
 
-![main page](./guide/images/cap1.png)
+![main page](/images/cap1.png)
 
 Enter the registration button, where you must fill out all the required fields, including your name, email address, password and its verification.
 The password must meet the following mandatory requirements:
 
 - It must be a minimum of 8 characters.
 
-![register](./guide/images/cap2.png)
+![register](/images/cap2.png)
 
 Upon entering, you will find the main view, where the key settings will be displayed. At the top, you can see the profile.
 
-![principal](./guide/images/cap3.png)
+![principal](/images/cap3.png)
 
 In the profile section, you will find two options: one to change the settings and another to return to the main page.
 
-![menu](./guide/images/cap4.png)
+![menu](/images/cap4.png)
 
 In the profile option, the user information and the option to change the password if necessary will be displayed.
 
-![info](./guide/images/cap5.png)
+<!-- ![info](/images/cap5.png) -->
 
-![cambioclave](./guide/images/cap6.png)
+<!-- ![cambioclave](/images/cap6.png) -->
 
 
