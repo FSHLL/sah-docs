@@ -240,7 +240,7 @@ or with the information provided by your deployments.</p>
 </ul>
 <h2 id="installing-the-serveless-plugin-and-the-application-in-your-environment" tabindex="-1"><a class="header-anchor" href="#installing-the-serveless-plugin-and-the-application-in-your-environment"><span>Installing the serveless plugin and the application in your environment</span></a></h2>
 <p>In this section, we will guide you through the process of creating a new project. The initial configuration is crucial as it lays the foundation for successful software development and deployment. Following the steps detailed below will help ensure that your project is organized, functions correctly, and meets established standards.</p>
-<h3 id="steps-to-register" tabindex="-1"><a class="header-anchor" href="#steps-to-register"><span>Steps to register</span></a></h3>
+<h3 id="steps-to-register" tabindex="-1"><a class="header-anchor" href="#steps-to-register"><span>Steps to register:</span></a></h3>
 <p>Next, you must follow the following steps to register:</p>
 <p>You must go to the main page that we will show you below, where you will find the main view of Laravel. At the top right, you will see two buttons: one to register and the other to log in.</p>
 <p><img src="/images/cap1.png" alt="main page"></p>
@@ -252,11 +252,17 @@ The password must meet the following mandatory requirements:</p>
 <p><img src="/images/cap2.png" alt="register"></p>
 <p>Upon entering, you will find the main view, where the key settings will be displayed. At the top, you can see the profile.</p>
 <p><img src="/images/cap3.png" alt="principal"></p>
-<p>In the profile section, you will find two options: one to change the settings and another to return to the main page.</p>
+<p>In the profile section, you will find two options: one to adjust settings and another to return to the main page. By accessing the profile option, you will be able to view user information and have the option to change the password.</p>
 <p><img src="/images/cap4.png" alt="menu"></p>
-<p>In the profile option, the user information and the option to change the password if necessary will be displayed.</p>
-<!-- ![info](/images/cap5.png) -->
-<!-- ![cambioclave](/images/cap6.png) -->
+<p><img src="/images/cap5.png" alt="info"></p>
+<p><img src="/images/cap6.png" alt="cambioclave"></p>
+<p>Below you will find tokens that will allow you to access various functions and benefits within the platform. These tokens are a valuable tool to enhance your experience and make it easier to use our features.</p>
+<p><img src="/images/cap7.png" alt="tokens"></p>
+<h3 id="login" tabindex="-1"><a class="header-anchor" href="#login"><span>Login</span></a></h3>
+<p>Once you complete your registration, you can easily log into your account using your email address and the password you chose. This access option is quick and convenient, allowing you to enjoy all the features of the platform without complications. In addition, we ensure that your information is protected, guaranteeing a safe and fluid experience.</p>
+<p><img src="/images/cap8.png" alt="login"></p>
+<p>When you access the projects page, you will find a button that says 'New'. Clicking on it will open a window to create a new project</p>
+<p><img src="/images/cap9.png" alt="project"></p>
 </div></template>
 
 

@@ -257,7 +257,7 @@ or with the information provided by your deployments.
 
 In this section, we will guide you through the process of creating a new project. The initial configuration is crucial as it lays the foundation for successful software development and deployment. Following the steps detailed below will help ensure that your project is organized, functions correctly, and meets established standards.
 
-### Steps to register
+### Steps to register:
 
 Next, you must follow the following steps to register:
 
@@ -276,14 +276,25 @@ Upon entering, you will find the main view, where the key settings will be displ
 
 ![principal](/images/cap3.png)
 
-In the profile section, you will find two options: one to change the settings and another to return to the main page.
+In the profile section, you will find two options: one to adjust settings and another to return to the main page. By accessing the profile option, you will be able to view user information and have the option to change the password.
 
 ![menu](/images/cap4.png)
 
-In the profile option, the user information and the option to change the password if necessary will be displayed.
+![info](/images/cap5.png)
 
-<!-- ![info](/images/cap5.png) -->
+![cambioclave](/images/cap6.png)
 
-<!-- ![cambioclave](/images/cap6.png) -->
+Below you will find tokens that will allow you to access various functions and benefits within the platform. These tokens are a valuable tool to enhance your experience and make it easier to use our features.
 
+![tokens](/images/cap7.png)
+
+### Login
+
+Once you complete your registration, you can easily log into your account using your email address and the password you chose. This access option is quick and convenient, allowing you to enjoy all the features of the platform without complications. In addition, we ensure that your information is protected, guaranteeing a safe and fluid experience.
+
+![login](/images/cap8.png)
+
+When you access the projects page, you will find a button that says 'New'. Clicking on it will open a window to create a new project
+
+![project](/images/cap9.png)
 
