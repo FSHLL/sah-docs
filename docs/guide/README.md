@@ -1,10 +1,14 @@
-# Get Started
-
-## Introduction
+# Introduction
 
 SAM was born with the intention of facilitating the rollbacks of functions in serverless projects,
 making use of the aliases in associated projects we can perform a rollback in a much faster way,
 without the need to redeploy using a stack.
+
+::: tip Alias
+A Lambda alias is a pointer to a function version that you can update.
+When you deploy a new version, you can update the alias to use the new version, or split traffic between two versions.
+See [Create an alias for a Lambda function](https://docs.aws.amazon.com/lambda/latest/dg/configuration-aliases.html)
+:::
 
 Let's review how it works with the current serverless framework flow, with a basic configuration we can have a running function.
 
@@ -28,8 +32,8 @@ functions:
 
 In AWS Cloudformation we would have the following stack:
 
+::: details CloudFormationTemplate
 ```yml
----
 AWSTemplateFormatVersion: '2010-09-09'
 Description: The AWS CloudFormation template for this Serverless application
 Resources:
@@ -233,8 +237,13 @@ Outputs:
     Export:
       Name: sls-aws-python-rest-api-dev-ServiceEndpoint
 ```
+:::
 
-As we can see we do not have aliases associated to our functions, the aliases work as pointers to specific versions of a function, this allows us to manage more easily our versions without the need to update the stack of that project as the serverless **rollback** command currently does.
+As we can see we do not have aliases associated to our functions, the aliases work as pointers to specific versions of a function, this allows us to manage more easily our versions without the need to update the stack of that project as the [serverless rollback](https://www.serverless.com/framework/docs/providers/aws/cli-reference/rollback) command currently does.
+
+```sh
+serverless rollback --timestamp timestamp
+```
 
 With SAM we can easily create these aliases in our serverless project in this way if we want to rollback to a previous version we just need to configure the alias to point to this.
 
@@ -242,8 +251,10 @@ With SAM we can easily create these aliases in our serverless project in this wa
 
 This is a serverless plugin that allow create aliases without imposing a way-of-working with them.
 
-- Create an "active" alias, and using that alias in API Gateway Event Sources and Event Rules.
-- Connect your deployments with the SAM application.
+- Create an **"ACTIVE"** alias, and using that alias in **API Gateway**, **Event Sources** and **Event Rules**.
+- Connect your deployments with the **SAH application**.
+
+[GitHub Repository](https://github.com/FSHLL/sah-plugin)
 
 ## SAM App
 
@@ -253,37 +264,5 @@ or with the information provided by your deployments.
 - Create projects from a stack.
 - Easily monitor your functions, deployments and versions.
 
-## Installing the serveless plugin and the application in your environment
-
-In this section, we will guide you through the process of creating a new project. The initial configuration is crucial as it lays the foundation for successful software development and deployment. Following the steps detailed below will help ensure that your project is organized, functions correctly, and meets established standards.
-
-### Steps to register
-
-Next, you must follow the following steps to register:
-
-You must go to the main page that we will show you below, where you will find the main view of Laravel. At the top right, you will see two buttons: one to register and the other to log in.
-
-![main page](/images/cap1.png)
-
-Enter the registration button, where you must fill out all the required fields, including your name, email address, password and its verification.
-The password must meet the following mandatory requirements:
-
-- It must be a minimum of 8 characters.
-
-![register](/images/cap2.png)
-
-Upon entering, you will find the main view, where the key settings will be displayed. At the top, you can see the profile.
-
-![principal](/images/cap3.png)
-
-In the profile section, you will find two options: one to change the settings and another to return to the main page.
-
-![menu](/images/cap4.png)
-
-In the profile option, the user information and the option to change the password if necessary will be displayed.
-
-<!-- ![info](/images/cap5.png) -->
-
-<!-- ![cambioclave](/images/cap6.png) -->
-
+[GitHub Repository](https://github.com/FSHLL/sah)
 
