@@ -8,6 +8,10 @@ export default defineUserConfig({
   title: 'SAH',
   description: 'A Serverless Framework Complement',
 
+  // head: [
+  //   ['meta', { name: 'theme-color', content: '#00000' }],
+  // ],
+
   theme: defaultTheme({
     logo: 'images/logo-dark.png',
     logoDark: 'images/logo-light.png',
