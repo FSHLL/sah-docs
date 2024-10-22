@@ -5,11 +5,11 @@ import { viteBundler } from '@vuepress/bundler-vite'
 export default defineUserConfig({
   lang: 'en-US',
 
-  title: 'SAM',
+  title: 'SAH',
   description: 'A Serverless Framework Complement',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: 'https://vuejs.press/images/LOGO.png',
 
     navbar: [
       '/',

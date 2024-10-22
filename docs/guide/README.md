@@ -257,7 +257,7 @@ or with the information provided by your deployments.
 
 In this section, we will guide you through the process of creating a new project. The initial configuration is crucial as it lays the foundation for successful software development and deployment. Following the steps detailed below will help ensure that your project is organized, functions correctly, and meets established standards.
 
-### Steps to register:
+### Steps to register
 
 Next, you must follow the following steps to register:
 
@@ -294,7 +294,22 @@ Once you complete your registration, you can easily log into your account using 
 
 ![login](/images/cap8.png)
 
+### Project creation
+
+When you log in, you'll be taken to the homepage. From there, you'll have the options in the dashboard, where it will show if you have the right credentials: the Keys Config section will appear. If you don't have the credentials, it will show you the option to create them.
+
+![dasboard](/images/cap9.png)
+
+
 When you access the projects page, you will find a button that says 'New'. Clicking on it will open a window to create a new project
 
-![project](/images/cap9.png)
+![project](/images/cap10.png)
 
+Creating a project is very easy, as it will only ask you for a name and the stack you want to use. Among the options we have for you are:
+
+- aws-python-rest-api-dev: to create REST APIs with Python.
+- zappa-demo-dev: To deploy applications on AWS Lambda.
+- bref-demo-dev: if you work with PHP.
+- steam-network-1710382473: If you prefer to use Swift.
+
+![project](/images/cap12.png)
