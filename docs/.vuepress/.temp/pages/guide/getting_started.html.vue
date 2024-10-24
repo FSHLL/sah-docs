@@ -5,7 +5,7 @@
 If you liked SAM, and you have seen the potential and the great opportunity we have in the Serverless community, I invite you to give it a star on <a href="https://github.com/FSHLL/sam" target="_blank" rel="noopener noreferrer">GitHub<ExternalLinkIcon/></a> and contribute to the development of this great tol.</p>
 </blockquote>
 <!-- ## Create project -->
-<h3 id="steps-to-register" tabindex="-1"><a class="header-anchor" href="#steps-to-register"><span>Steps to register</span></a></h3>
+<h3 id="register" tabindex="-1"><a class="header-anchor" href="#register"><span>Register</span></a></h3>
 <p>You must go to the main page that we will show you below, where you will find the main view of Laravel. At the top right, you will see two buttons: one to register and the other to log in.</p>
 <p><img src="/images/cap1.png" alt="main page"></p>
 <p>Enter the registration button, where you must fill out all the required fields, including your name, email address, password and its verification.

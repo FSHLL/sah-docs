@@ -246,42 +246,6 @@ or with the information provided by your deployments.</p>
 <li>Easily monitor your functions, deployments and versions.</li>
 </ul>
 <p><a href="https://github.com/FSHLL/sah" target="_blank" rel="noopener noreferrer">GitHub Repository<ExternalLinkIcon/></a></p>
-<h2 id="installing-the-serveless-plugin-and-the-application-in-your-environment" tabindex="-1"><a class="header-anchor" href="#installing-the-serveless-plugin-and-the-application-in-your-environment"><span>Installing the serveless plugin and the application in your environment</span></a></h2>
-<p>In this section, we will guide you through the process of creating a new project. The initial configuration is crucial as it lays the foundation for successful software development and deployment. Following the steps detailed below will help ensure that your project is organized, functions correctly, and meets established standards.</p>
-<h3 id="steps-to-register" tabindex="-1"><a class="header-anchor" href="#steps-to-register"><span>Steps to register</span></a></h3>
-<p>Next, you must follow the following steps to register:</p>
-<p>You must go to the main page that we will show you below, where you will find the main view of Laravel. At the top right, you will see two buttons: one to register and the other to log in.</p>
-<p><img src="/images/cap1.png" alt="main page"></p>
-<p>Enter the registration button, where you must fill out all the required fields, including your name, email address, password and its verification.
-The password must meet the following mandatory requirements:</p>
-<ul>
-<li>It must be a minimum of 8 characters.</li>
-</ul>
-<p><img src="/images/cap2.png" alt="register"></p>
-<p>Upon entering, you will find the main view, where the key settings will be displayed. At the top, you can see the profile.</p>
-<p><img src="/images/cap3.png" alt="principal"></p>
-<p>In the profile section, you will find two options: one to adjust settings and another to return to the main page. By accessing the profile option, you will be able to view user information and have the option to change the password.</p>
-<p><img src="/images/cap4.png" alt="menu"></p>
-<p><img src="/images/cap5.png" alt="info"></p>
-<p><img src="/images/cap6.png" alt="cambioclave"></p>
-<p>Below you will find tokens that will allow you to access various functions and benefits within the platform. These tokens are a valuable tool to enhance your experience and make it easier to use our features.</p>
-<p><img src="/images/cap7.png" alt="tokens"></p>
-<h3 id="login" tabindex="-1"><a class="header-anchor" href="#login"><span>Login</span></a></h3>
-<p>Once you complete your registration, you can easily log into your account using your email address and the password you chose. This access option is quick and convenient, allowing you to enjoy all the features of the platform without complications. In addition, we ensure that your information is protected, guaranteeing a safe and fluid experience.</p>
-<p><img src="/images/cap8.png" alt="login"></p>
-<h3 id="project-creation" tabindex="-1"><a class="header-anchor" href="#project-creation"><span>Project creation</span></a></h3>
-<p>When you log in, you'll be taken to the homepage. From there, you'll have the options in the dashboard, where it will show if you have the right credentials: the Keys Config section will appear. If you don't have the credentials, it will show you the option to create them.</p>
-<p><img src="/images/cap9.png" alt="dasboard"></p>
-<p>When you access the projects page, you will find a button that says 'New'. Clicking on it will open a window to create a new project</p>
-<p><img src="/images/cap10.png" alt="project"></p>
-<p>Creating a project is very easy, as it will only ask you for a name and the stack you want to use. Among the options we have for you are:</p>
-<ul>
-<li>aws-python-rest-api-dev: to create REST APIs with Python.</li>
-<li>zappa-demo-dev: To deploy applications on AWS Lambda.</li>
-<li>bref-demo-dev: if you work with PHP.</li>
-<li>steam-network-1710382473: If you prefer to use Swift.</li>
-</ul>
-<p><img src="/images/cap12.png" alt="project"></p>
 </div></template>
 
 

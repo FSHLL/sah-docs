@@ -8,10 +8,6 @@ actions:
     link: guide/
     type: primary
 
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
-    type: secondary
-
 features:
   - title: Use Alias
     details: Improve your rollbacks using aliases for your functions.
