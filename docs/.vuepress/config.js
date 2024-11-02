@@ -28,6 +28,7 @@ export default defineUserConfig({
             '/guide/',
             '/guide/installation.md',
             '/guide/getting_started.md',
+            '/guide/project_setup.md',
           ],
         },
       ],

@@ -7,11 +7,7 @@ In this section, we will guide you through the process of creating a new project
 
 <!-- ## Create project -->
 
-## Installing the serveless plugin and the application in your environment
-
-In this section, we will guide you through the process of creating a new project. The initial configuration is crucial as it lays the foundation for successful software development and deployment. Following the steps detailed below will help ensure that your project is organized, functions correctly, and meets established standards.
-
-### Steps to register
+### Register
 
 Next, you must follow the following steps to register:
 
@@ -26,9 +22,45 @@ The password must meet the following mandatory requirements:
 
 ![register](/images/cap2.png)
 
-Upon entering, you will find the main view, where the key settings will be displayed. At the top, you can see the profile.
+When you log in, you'll be taken to the homepage. From there, you'll have the options in the dashboard, where it will show if you have the right credentials: the Keys Config section will appear. If you don't have the credentials, it will show you the option to create them.
 
-![principal](/images/cap3.png)
+![dasboard](/images/cap3.png)
+
+![dasboard](/images/cap9.png)
+
+::: tip AWS credentials
+Currently SAH supports AWS as a provider, AWS here you can configure your credentials with the necessary permissions to operate, for the creation of these credentials and more detail, please visit the [AWS documentation](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html).
+:::
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "cloudformation:ListStacks",
+        "cloudformation:DescribeStacks",
+        "cloudformation:DescribeStackResources"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "lambda:ListFunctions",
+        "lambda:GetFunction",
+        "lambda:UpdateAlias",
+        "lambda:ListVersionsByFunction",
+        "lambda:GetAlias",
+        "lambda:UpdateFunctionConfiguration"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+
+```
 
 In the profile section, you will find two options: one to adjust settings and another to return to the main page. By accessing the profile option, you will be able to view user information and have the option to change the password.
 
@@ -47,23 +79,3 @@ Below you will find tokens that will allow you to access various functions and b
 Once you complete your registration, you can easily log into your account using your email address and the password you chose. This access option is quick and convenient, allowing you to enjoy all the features of the platform without complications. In addition, we ensure that your information is protected, guaranteeing a safe and fluid experience.
 
 ![login](/images/cap8.png)
-
-### Project creation
-
-When you log in, you'll be taken to the homepage. From there, you'll have the options in the dashboard, where it will show if you have the right credentials: the Keys Config section will appear. If you don't have the credentials, it will show you the option to create them.
-
-![dasboard](/images/cap9.png)
-
-
-When you access the projects page, you will find a button that says 'New'. Clicking on it will open a window to create a new project
-
-![project](/images/cap10.png)
-
-Creating a project is very easy, as it will only ask you for a name and the stack you want to use. Among the options we have for you are:
-
-- aws-python-rest-api-dev: to create REST APIs with Python.
-- zappa-demo-dev: To deploy applications on AWS Lambda.
-- bref-demo-dev: if you work with PHP.
-- steam-network-1710382473: If you prefer to use Swift.
-
-![project](/images/cap12.png)
