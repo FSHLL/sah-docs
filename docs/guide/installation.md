@@ -1,6 +1,6 @@
 # Installation
 
-## SAM Plugin
+## SAH Plugin
 
 If you only want to create aliases in your current serverless project just install the plugin and make a few small configurations.
 
@@ -11,27 +11,27 @@ If you only want to create aliases in your current serverless project just insta
 ### NPM installation
 
 ```sh
-npm install -D sam-plugin
+npm install -D sah-plugin
 ```
 
 Add the plugin to serverless.yml:
 
 ```yml
 plugins:
-  - sam-plugin
+  - sah-plugin
 ```
 
 ### Configuration
 
-Inside your Serverless config, include this plugin and define a `custom.sam` object and specify the activeAliasName
+Inside your Serverless config, include this plugin and define a `custom.sah` object and specify the activeAliasName
 
 ```yaml
 plugins:
-  - sam-plugin
+  - sah-plugin
   ...
 
 custom:
-  sam:
+  sah:
     activeAliasName: 'ACTIVE'  # Default: 'ACTIVE'
     useActiveAliasInEvents: true   # Default: false. Whether to change API Gateway to target the active alias or not
     makeLambdasActive: true  # Default: false. Whether to apply the active alias to the lambdas that are being deployed now. Could vary per environment.
@@ -39,13 +39,13 @@ custom:
     sahToken: '1|fZH1G7lyRZZKcK4AD8PaaQlXlTeeM7bc2XdjOsqBeecfb75f' # Default: null. It is not mandatory but you can use it if you wish to synchronize your displays with your SAH application.
 ```
 
-## SAM App
+## SAH App
 
-With SAM App you can easily manage your projects, aliases and deployments.
+With SAH App you can easily manage your projects, aliases and deployments.
 
 ### Requirements
 
-- php ^8.1
+- php >=8.1
 
 ### Composer installation
 

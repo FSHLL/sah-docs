@@ -1,6 +1,6 @@
 # Introduction
 
-SAM was born with the intention of facilitating the rollbacks of functions in serverless projects,
+SAH was born with the intention of facilitating the rollbacks of functions in serverless projects,
 making use of the aliases in associated projects we can perform a rollback in a much faster way,
 without the need to redeploy using a stack.
 
@@ -245,9 +245,9 @@ As we can see we do not have aliases associated to our functions, the aliases wo
 serverless rollback --timestamp timestamp
 ```
 
-With SAM we can easily create these aliases in our serverless project in this way if we want to rollback to a previous version we just need to configure the alias to point to this.
+With SAH we can easily create these aliases in our serverless project in this way if we want to rollback to a previous version we just need to configure the alias to point to this.
 
-## SAM Plugin
+## SAH Plugin
 
 This is a serverless plugin that allow create aliases without imposing a way-of-working with them.
 
@@ -256,7 +256,7 @@ This is a serverless plugin that allow create aliases without imposing a way-of-
 
 [GitHub Repository](https://github.com/FSHLL/sah-plugin)
 
-## SAM App
+## SAH App
 
 This application will facilitate the management of your alias pointing to the version you need easily either manually
 or with the information provided by your deployments.

@@ -14,11 +14,11 @@ Fields:
 
 - Project Name
 - Stack: AWS Cloud formation Stack (this stack is created for serverless framework for associate all project resources).
-- Alias: Alias defined in the [SAM Plugin](../guide/#sam-plugin) custom config
+- Alias: Alias defined in the [SAH Plugin](../guide/#sah-plugin) custom config
 
 ```yml
 custom:
-    sam:
+    sah:
         activeAliasName: 'ACTIVE'
         ---
 ```
@@ -48,13 +48,13 @@ In the upper right corner you will find the second option where you can edit the
 
 ### Deployment URL
 
-In the upper right corner you will find the third option where you can see and copy thee project deployment URL, with this url you can add a extra config to the sam plugin in your `serverless.yml` file for notify to SAH a new deployment.
+In the upper right corner you will find the third option where you can see and copy thee project deployment URL, with this url you can add a extra config to the sah plugin in your `serverless.yml` file for notify to SAH a new deployment.
 
 ![project](/images/cap18.png)
 
 ```yml
 custom:
-    sam:
+    sah:
         sahUrl: 'http://{app_url}/api/projects/{project_id}/deployments'
         sahToken: ${env.SAH_TOKEN}
         ---

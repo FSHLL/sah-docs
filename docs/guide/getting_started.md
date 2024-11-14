@@ -3,7 +3,7 @@
 In this section, we will guide you through the process of creating a new project. The initial configuration is crucial as it lays the foundation for successful software development and deployment. Following the steps detailed below will help ensure that your project is organized, functions correctly, and meets established standards.
 
 > **Important** <br>
-> If you liked SAM, and you have seen the potential and the great opportunity we have in the Serverless community, I invite you to give it a star on [GitHub](https://github.com/FSHLL/sam) and contribute to the development of this great tol.
+> If you liked SAH, and you have seen the potential and the great opportunity we have in the Serverless community, I invite you to give it a star on [GitHub](https://github.com/FSHLL/sah) and contribute to the development of this great tol.
 
 <!-- ## Create project -->
 
